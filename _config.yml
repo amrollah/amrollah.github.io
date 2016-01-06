@@ -1,0 +1,44 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               "" 
+tagline:             'A giraffe on cliff'
+description:         'A cosy place to keep my homepage and blog.'
+url:                 http://amrollah.me
+baseurl:             ''
+paginate:            5
+comments: true
+
+# About/contact
+author:
+  name:              Amrollah
+  url:               https://twitter.com/amrollah_seif
+  email:             a.seif67@gmail.com
+
+disqus_shortname: "amrollah"
+google_analytics: UA-8031131-6
+
+# social footer
+social:
+  github:
+    slug: github
+    link: http://github.com/amrollah
+  facebook:
+    slug: facebook
+    link: http://facebook.com/a.seif67
+  twitter:
+    slug: twitter
+    link: http://twitter.com/amrollah_seif
+  instagram:
+    slug: instagram
+    link: http://instagram.com/amrollah67
+  linkedin:
+    slug: linkedin
+    link: http://ch.linkedin.com/in/amrollah
+
+# Custom vars
+version:             1.1.0
