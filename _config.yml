@@ -12,7 +12,8 @@ url:                 "http://amrollah.me"
 baseurl:             ""
 paginate:            5
 comments: true
-timezone: Europe/Zurich
+show_related_posts: false
+
 # About/contact
 author:
   name:              Amrollah

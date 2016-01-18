@@ -9,7 +9,7 @@ lang: en
   {% if post.lang == page.lang %}
   <div class="post">
     <h1 class="post-title">
-      <a href="{{ site.baseurl }}/{{ post.url }}">
+      <a href="{{ post.url }}">
         {{ post.title }}
       </a>
     </h1>

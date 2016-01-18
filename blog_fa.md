@@ -9,7 +9,7 @@ lang: fa
   {% if post.lang == 'fa' %}
   <div class="post">
     <h1 class="post-title">
-      <a href="{{ site.baseurl }}/{{ post.url }}">
+      <a href="{{ post.url }}">
         {{ post.title }}
       </a>
     </h1>
