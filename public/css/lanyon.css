@@ -433,6 +433,9 @@ a.pagination-item:hover {
           transform: translateX(-14rem);
 }
 
+body.layout-reverse, div.layout-reverse{
+  direction: rtl;
+}
 
 /*
  * Themes

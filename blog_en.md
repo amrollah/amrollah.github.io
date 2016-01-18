@@ -1,10 +1,12 @@
 ---
 layout: page
-title: Blog
+title: Blog English
+lang: en
 ---
 
 <div class="posts">
-  {% for post in paginator.posts %}
+  {% for post in site.posts %}
+  {% if post.lang == page.lang %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ site.baseurl }}/{{ post.url }}">
@@ -16,6 +18,7 @@ title: Blog
 
     {{ post.content }}
   </div>
+  {% endif %}
   {% endfor %}
 </div>
 

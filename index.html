@@ -5,18 +5,19 @@ title: Home
 
 <div class="row marketing">
 	<div class="col-sm-4">
-	<img  class="img-circle avatar" alt="Amrollah" src="img/profile.jpg">
+	<img  class="img-circle avatar" alt="Amrollah" src="img/profile.png">
 	</div>
 	<div itemscope itemtype="http://data-vocabulary.org/Person" class="col-sm-8">
-	<p class="lead">Hi, I'm <span itemprop="name">Amrollah Seifoddini</span>, just another digital citizen.</p>
+	<p class="lead">Hi, I'm <span itemprop="name">Amrollah Seifoddini</span>, just another global citizen currently residing in Switzerland. <br>And this is my homepage, where I keep and present things I build as well as some academic stuff.</p>
+     <p>I occasionally post my thoughts as blog posts in <a href="/blog_en">English</a> or <a href="/blog_fa">Farsi</a>.</p>
 	</div>
 </div>
 
 <h1> Recent posts </h1>
 <div class="posts">
-  {% for post in paginator.posts %}
+  {% for post in site.posts %}
       <h3 class="post-title">
-      <a href="{{ site.baseurl }}/{{ post.url }}">
+      <a href="/{{ post.url }}">
         {{ post.title }}
       </a>
     </h3>

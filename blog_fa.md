@@ -1,10 +1,12 @@
 ---
 layout: page
-title: Farsi notes
+title: Blog Farsi
+lang: fa
 ---
 
 <div class="posts">
-  {% for post in paginator.posts %}
+  {% for post in site.posts %}
+  {% if post.lang == 'fa' %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ site.baseurl }}/{{ post.url }}">
@@ -16,6 +18,7 @@ title: Farsi notes
 
     {{ post.content }}
   </div>
+  {% endif %}
   {% endfor %}
 </div>
 

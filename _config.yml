@@ -1,22 +1,22 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-relative_permalinks: true
+permalink: pretty
+relative_permalinks: false
 
 # Setup
-title:               "" 
+title:               ""
 tagline:             'A giraffe on cliff'
 description:         'A cosy place to keep my homepage and blog.'
-url:                 http://amrollah.me
-baseurl:             ''
+url:                 "http://amrollah.me"
+baseurl:             ""
 paginate:            5
 comments: true
-
+timezone: Europe/Zurich
 # About/contact
 author:
   name:              Amrollah
-  url:               https://twitter.com/amrollah_seif
+  url:               "https://twitter.com/amrollah_seif"
   email:             a.seif67@gmail.com
 
 disqus_shortname: "amrollah"
