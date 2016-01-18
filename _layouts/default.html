@@ -29,6 +29,9 @@
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
+
+
+  {% include footer.html %}
     <script>
       (function(document) {
         var toggle = document.querySelector('.sidebar-toggle');
@@ -46,5 +49,8 @@
         }, false);
       })(document);
     </script>
+  {% if site.comments %}
+    <script id="dsq-count-scr" src="http://amrollah.disqus.com/count.js" async></script>
+  {% endif %}
   </body>
 </html>

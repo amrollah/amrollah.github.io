@@ -1,5 +1,6 @@
 ---
 layout: page
+type: blog
 title: Blog Farsi
 lang: fa
 ---
@@ -17,6 +18,8 @@ lang: fa
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
     {{ post.content }}
+     <a href="{{ post.url }}#disqus_thread">
+نظرات                   </a>
   </div>
   {% endif %}
   {% endfor %}
