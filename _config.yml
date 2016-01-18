@@ -6,7 +6,7 @@ relative_permalinks: false
 
 # Setup
 title:               ""
-tagline:             'A giraffe on cliff'
+tagline:             'a giraffe on cliff'
 description:         'A cosy place to keep my homepage and blog.'
 url:                 "http://amrollah.me"
 baseurl:             ""

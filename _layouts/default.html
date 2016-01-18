@@ -3,7 +3,11 @@
 
   {% include head.html %}
 
+  {% if page.lang == 'fa' %}
+  <body class="layout-reverse">
+  {% else %}
   <body>
+  {% endif %}
 
     {% include sidebar.html %}
 
@@ -13,8 +17,7 @@
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
+            <small><a href="{{ site.baseurl }}/" title="Home">{{ site.tagline }}</a></small>
           </h3>
         </div>
       </div>
