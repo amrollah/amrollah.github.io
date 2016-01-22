@@ -3,6 +3,7 @@ layout: page
 type: blog
 title: Blog Farsi
 lang: fa
+order: 2
 ---
 
 <div class="posts">

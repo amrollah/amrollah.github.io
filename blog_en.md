@@ -3,6 +3,7 @@ layout: page
 type: blog
 title: Blog English
 lang: en
+order: 1
 ---
 
 <div class="posts">
