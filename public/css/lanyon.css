@@ -120,6 +120,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   .masthead-title small {
     display: none;
+    font-size: 75%;
   }
 }
 
@@ -585,3 +586,20 @@ div.justify, p.justify {
   font-size: 1.2em;
 }
 
+
+img.avatar{
+  height: auto;
+  max-width: 80%;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+p.col-sm{
+  float: left;
+  margin:5px;
+}
+@media (max-width: 500px) {
+  p.intro {
+    clear: left;
+  }
+}
