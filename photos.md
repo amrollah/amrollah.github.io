@@ -7,14 +7,9 @@ order: 6
 ---
 
 <dive>
-<p> <i>Italy </i>
-  <a data-flickr-embed="true"  href="https://www.flickr.com/photos/58576587@N02/albums/72157663738780231" title="Italy"><img src="https://farm2.staticflickr.com/1586/23935757014_eb47295c08_k.jpg" width="2048" height="1536" alt="Italy"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<p>
+<iframe src="http://www.flickr.com/photos/58576587@N02/24498000012/player/" width="100%" height="480" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 </p>
-<p> <i>Lindau </i>
-  <a data-flickr-embed="true"  href="https://www.flickr.com/photos/58576587@N02/albums/72157661549501903" title="Lindau"><img src="https://farm2.staticflickr.com/1483/24572665345_ca9ac3106d_k.jpg" width="2048" height="1536" alt="Lindau"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-</p>
-
-
-
 
 </div>
