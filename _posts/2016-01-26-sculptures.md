@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ما را چه به آن آلت سنگی
+title: ما را چه به آن آلتِ سنگی
 status: published
 type: post
 published: true
