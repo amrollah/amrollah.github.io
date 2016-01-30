@@ -6,6 +6,7 @@ type: post
 published: true
 comments: true
 lang: fa
+tags: saudi embassy occupation mistake stupid iran politics
 ---
 
 <p class="justify">

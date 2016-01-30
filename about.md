@@ -3,7 +3,8 @@ layout: page
 type: page
 title: About
 lang: en
-order: 4
+order: 8
+icon: flaticon-user7
 ---
 <h3>About</h3>
 <dive>

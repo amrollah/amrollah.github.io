@@ -6,6 +6,7 @@ type: post
 published: true
 comments: true
 lang: en
+tags: people society celebrity happy-life
 ---
 
 <p class="justify">

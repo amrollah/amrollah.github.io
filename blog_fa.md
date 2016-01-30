@@ -4,6 +4,7 @@ type: blog
 title: Blog Farsi
 lang: fa
 order: 2
+icon: flaticon-checkbox6
 ---
 
 <div class="posts">
@@ -19,8 +20,10 @@ order: 2
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
     {{ post.content }}
+    {% if site.comments %}
      <a href="{{ post.url }}#disqus_thread">
 نظرات                   </a>
+{% endif %}
   </div>
   {% endif %}
   {% endfor %}

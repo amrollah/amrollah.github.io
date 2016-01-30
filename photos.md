@@ -4,6 +4,7 @@ type: page
 title: Photos
 lang: en
 order: 6
+icon: flaticon-camera120
 ---
 
 <dive>

@@ -6,6 +6,7 @@ type: post
 published: true
 comments: true
 lang: en
+tags: bored old repetitive people 21-century evolution
 ---
 
 

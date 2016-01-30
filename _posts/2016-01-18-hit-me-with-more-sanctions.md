@@ -6,6 +6,7 @@ type: post
 published: true
 comments: true
 lang: fa
+tags: iran politics sanction america US unfair
 ---
 
 

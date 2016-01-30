@@ -6,6 +6,7 @@ type: post
 published: true
 comments: true
 lang: en
+tags: space fantasy future alone loneliness
 ---
 
 <p class="justify">It’s a scary thought that we’re alone in this universe. Some might say it’s scary if we’re NOT alone,

@@ -4,6 +4,7 @@ type: page
 title: Music
 lang: en
 order: 5
+icon: flaticon-quaver3
 ---
 <h3>Music</h3>
 <dive>
