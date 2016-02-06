@@ -3,7 +3,7 @@ layout: post
 title: قانونِ سوّمِ نیوتن نیز من را
 status: published
 type: post
-published: true
+published: false
 comments: true
 lang: fa
 tags: poem love loss mistake regret
